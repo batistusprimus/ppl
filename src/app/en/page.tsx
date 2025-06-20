@@ -1,6 +1,6 @@
-import Navigation from './components/Navigation';
+import Navigation from '../components/Navigation';
 
-export default function Home() {
+export default function HomeEN() {
   return (
     <>
       <Navigation />
@@ -16,7 +16,7 @@ export default function Home() {
               WE SELL LEADS
             </h1>
             <p className="text-xl md:text-2xl lg:text-3xl mb-12 max-w-5xl mx-auto font-medium text-blue-100/90 leading-relaxed">
-              Des leads B2B qualifiés. Vérifiés. Livrés. Payés à la performance.
+              High-quality B2B leads. Verified. Delivered. Paid per result.
             </p>
             <a 
               href="https://app.iclosed.io/e/baptistepiocelle/contact" 
@@ -24,9 +24,9 @@ export default function Home() {
               rel="noopener noreferrer" 
               className="inline-block bg-white text-slate-900 px-10 py-5 rounded-xl font-bold text-lg md:text-xl shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5 hover:shadow-blue-400/40 animate-pulse-slow"
             >
-              → Planifiez un appel de 15 min
+              → Book your free 15-min call
             </a>
-            <p className="text-base mt-8 text-blue-200/80">Aucun engagement • Résultats garantis</p>
+            <p className="text-base mt-8 text-blue-200/80">No commitment • Guaranteed results</p>
           </div>
         </section>
 
@@ -35,11 +35,11 @@ export default function Home() {
           <div className="container mx-auto px-6 text-center">
             <div className="flex flex-col md:flex-row justify-center items-center md:space-x-8 space-y-2 md:space-y-0 text-lg font-medium">
               <span>
-                <span className="font-bold text-blue-300">+4.000</span> leads générés en moyenne par client/mois
+                <span className="font-bold text-blue-300">+4,000</span> leads generated on average per client/month
               </span>
               <span className="text-slate-500 hidden md:block">|</span>
               <span>
-                <span className="font-bold text-green-300">6</span> secteurs desservis
+                <span className="font-bold text-green-300">6</span> industries served
               </span>
             </div>
           </div>
@@ -52,14 +52,14 @@ export default function Home() {
               {/* Left Column: Description */}
               <div className="pr-8">
                 <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 leading-tight">
-                  Une source prévisible de leads B2B exclusifs
+                  A predictable source of exclusive B2B leads
                 </h2>
                 <p className="text-lg text-slate-600 leading-relaxed space-y-4">
                   <span>
-                    Nous exploitons des marques verticales qui génèrent chaque jour des leads qualifiés.
-                    Ces leads sont vérifiés, engagés, et disponibles à l'achat en exclusivité – selon votre secteur, votre cible, et leur niveau d'intention.
+                    We operate high-converting vertical brands that generate qualified leads every day.
+                    These leads are verified, nurtured, and available for exclusive purchase – by industry, segment, and intent level.
                   </span>
-                  <strong className="block text-slate-800 pt-2">Vous sélectionnez les leads que vous voulez. Vous payez à la lead. Rien de plus.</strong>
+                  <strong className="block text-slate-800 pt-2">You select the leads you want. You pay per lead. Nothing else.</strong>
                 </p>
               </div>
 
@@ -71,7 +71,7 @@ export default function Home() {
                       ✓
                     </div>
                     <p className="ml-5 text-lg font-medium text-slate-800">
-                      Leads alignés à votre cible idéale
+                      Leads matched to your ICP
                     </p>
                   </li>
                   <li className="flex items-center">
@@ -79,7 +79,7 @@ export default function Home() {
                       ✓
                     </div>
                     <p className="ml-5 text-lg font-medium text-slate-800">
-                      Emails, téléphones et données firmo vérifiés
+                      Verified emails, phones & firmographics
                     </p>
                   </li>
                   <li className="flex items-center">
@@ -87,7 +87,7 @@ export default function Home() {
                       ✓
                     </div>
                     <p className="ml-5 text-lg font-medium text-slate-800">
-                      Aucun setup. Aucun engagement. Juste des résultats.
+                      No setup. No commitment. Just results.
                     </p>
                   </li>
                 </ul>
@@ -103,11 +103,10 @@ export default function Home() {
               {/* Left Column: Description */}
               <div className="lg:pr-8">
                 <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
-                  Est-ce que c'est pour vous ?
+                  Is this for you?
                 </h2>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Nos leads sont conçus pour les entreprises B2B qui veulent du pipeline maintenant – pas des outils, pas des bases froides.
-                  Que vous soyez en phase de scale ou d'optimisation, nous vous livrons des leads qualifiés, exclusifs et disponibles à l'achat.
+                  Our leads are built for B2B companies that need pipeline now – not tools, not cold lists. Whether you're scaling fast or optimizing an existing sales engine, we deliver qualified, exclusive leads on demand.
                 </p>
               </div>
 
@@ -116,27 +115,27 @@ export default function Home() {
                 <ul className="space-y-5">
                   <li className="flex items-start">
                     <div className="flex-shrink-0 h-8 w-8 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 text-white flex items-center justify-center font-bold text-md shadow-sm mt-1">✓</div>
-                    <span className="ml-4 text-slate-700 text-lg">Agences à +100k€/mois de C.A.</span>
+                    <span className="ml-4 text-slate-700 text-lg">Agencies generating €100k+ per month</span>
                   </li>
                   <li className="flex items-start">
                     <div className="flex-shrink-0 h-8 w-8 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 text-white flex items-center justify-center font-bold text-md shadow-sm mt-1">✓</div>
-                    <span className="ml-4 text-slate-700 text-lg">SaaS B2B en acquisition active</span>
+                    <span className="ml-4 text-slate-700 text-lg">B2B SaaS companies scaling client acquisition</span>
                   </li>
                   <li className="flex items-start">
                     <div className="flex-shrink-0 h-8 w-8 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 text-white flex items-center justify-center font-bold text-md shadow-sm mt-1">✓</div>
-                    <span className="ml-4 text-slate-700 text-lg">Fintech ciblant TPE, PME ou indépendants</span>
+                    <span className="ml-4 text-slate-700 text-lg">Fintechs targeting SMEs or professionals</span>
                   </li>
                   <li className="flex items-start">
                     <div className="flex-shrink-0 h-8 w-8 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 text-white flex items-center justify-center font-bold text-md shadow-sm mt-1">✓</div>
-                    <span className="ml-4 text-slate-700 text-lg">ETI & grandes entreprises B2B (de 50 à 1.000+ salariés)</span>
+                    <span className="ml-4 text-slate-700 text-lg">Mid-market & large B2B companies (50 to 1,000+ employees)</span>
                   </li>
                   <li className="flex items-start">
                     <div className="flex-shrink-0 h-8 w-8 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 text-white flex items-center justify-center font-bold text-md shadow-sm mt-1">✓</div>
-                    <span className="ml-4 text-slate-700 text-lg">Start-up financées en phase de croissance</span>
+                    <span className="ml-4 text-slate-700 text-lg">Funded startups preparing for growth</span>
                   </li>
                   <li className="flex items-start">
                     <div className="flex-shrink-0 h-8 w-8 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 text-white flex items-center justify-center font-bold text-md shadow-sm mt-1">✓</div>
-                    <span className="ml-4 text-slate-700 text-lg">E-commerce B2B avec forte valeur client</span>
+                    <span className="ml-4 text-slate-700 text-lg">B2B Ecommerce companies with high LTV</span>
                   </li>
                 </ul>
               </div>
@@ -149,19 +148,19 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="text-center max-w-4xl mx-auto mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-                Prévisible. Scalable. Mesurable.
+                Predictable. Scalable. Measurable.
               </h2>
               <p className="text-xl text-slate-600 leading-relaxed mb-6">
-                Nos clients reçoivent des leads B2B réguliers, qualifiés, et exploitables immédiatement.
+                Our clients get consistent, high-quality leads—ready to convert.
               </p>
               <p className="text-lg text-slate-800 font-semibold leading-relaxed bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl inline-block px-6 py-3 border border-blue-100">
-                Là où la prospection classique plafonne, nous combinons volume, ciblage et intention.
+                We deliver what most outbound teams can't: volume + fit + intent.
               </p>
             </div>
             
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8">
-                {/* Card 1 - Prévisible */}
+                {/* Card 1 - Predictable */}
                 <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 hover:shadow-xl hover:border-blue-200 transition-all duration-300 group">
                   <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -169,11 +168,11 @@ export default function Home() {
                     </svg>
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors duration-300">
-                    Prévisible
+                    Predictable
                   </h3>
-                  <div className="text-3xl font-bold text-blue-600 mb-4">Jusqu'à 5000+</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-4">Up to 5000+</div>
                   <p className="text-slate-600 leading-relaxed">
-                    leads qualifiés livrés chaque mois de manière régulière et prévisible
+                    qualified B2B leads delivered monthly in a consistent and predictable manner
                   </p>
                 </div>
 
@@ -187,13 +186,13 @@ export default function Home() {
                   <h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-green-600 transition-colors duration-300">
                     Scalable
                   </h3>
-                  <div className="text-3xl font-bold text-green-600 mb-4">25€ - 300€</div>
+                  <div className="text-3xl font-bold text-green-600 mb-4">€25 to €300</div>
                   <p className="text-slate-600 leading-relaxed">
-                    coût par lead, selon le secteur et vos critères. Évoluez selon vos besoins.
+                    cost per lead, depending on your industry and filters. Scale according to your needs.
                   </p>
                 </div>
 
-                {/* Card 3 - Mesurable */}
+                {/* Card 3 - Measurable */}
                 <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 hover:shadow-xl hover:border-purple-200 transition-all duration-300 group">
                   <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-violet-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -201,11 +200,11 @@ export default function Home() {
                     </svg>
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-purple-600 transition-colors duration-300">
-                    Mesurable
+                    Measurable
                   </h3>
-                  <div className="text-3xl font-bold text-purple-600 mb-4">100% Exclusifs</div>
+                  <div className="text-3xl font-bold text-purple-600 mb-4">100% Exclusive</div>
                   <p className="text-slate-600 leading-relaxed">
-                    leads vérifiés, enrichis et prêts à être contactés avec des métriques précises
+                    leads are exclusive, verified, and enriched with actionable data and precise metrics
                   </p>
                 </div>
               </div>
@@ -214,19 +213,19 @@ export default function Home() {
               <div className="mt-16 grid md:grid-cols-4 gap-6">
                 <div className="text-center bg-gradient-to-br from-slate-50 to-blue-50 rounded-xl p-6 border border-slate-200">
                   <div className="text-2xl font-bold text-blue-600 mb-2">98%</div>
-                  <div className="text-slate-600 text-sm font-medium">Taux de livraison</div>
+                  <div className="text-slate-600 text-sm font-medium">Delivery rate</div>
                 </div>
                 <div className="text-center bg-gradient-to-br from-slate-50 to-green-50 rounded-xl p-6 border border-slate-200">
-                  <div className="text-2xl font-bold text-green-600 mb-2">7 à 30 jours</div>
-                  <div className="text-slate-600 text-sm font-medium">Délai de livraison</div>
+                  <div className="text-2xl font-bold text-green-600 mb-2">7-30 days</div>
+                  <div className="text-slate-600 text-sm font-medium">Delivery time</div>
                 </div>
                 <div className="text-center bg-gradient-to-br from-slate-50 to-purple-50 rounded-xl p-6 border border-slate-200">
                   <div className="text-2xl font-bold text-purple-600 mb-2">95%</div>
-                  <div className="text-slate-600 text-sm font-medium">Taux de validation</div>
+                  <div className="text-slate-600 text-sm font-medium">Validation rate</div>
                 </div>
                 <div className="text-center bg-gradient-to-br from-slate-50 to-orange-50 rounded-xl p-6 border border-slate-200">
                   <div className="text-2xl font-bold text-orange-600 mb-2">6</div>
-                  <div className="text-slate-600 text-sm font-medium">Secteurs couverts</div>
+                  <div className="text-slate-600 text-sm font-medium">Industries covered</div>
                 </div>
               </div>
             </div>
@@ -238,10 +237,10 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="text-center max-w-4xl mx-auto mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-                De la demande à la livraison en 3 étapes
+                From demand to delivery in 3 steps
               </h2>
               <p className="text-xl text-slate-600">
-                Un processus simple et transparent pour obtenir vos leads qualifiés
+                A simple and transparent process to get your qualified leads
               </p>
             </div>
             
@@ -261,10 +260,10 @@ export default function Home() {
                     1
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors duration-300">
-                    Explorez les leads disponibles
+                    Explore available leads
                   </h3>
                   <p className="text-slate-600 leading-relaxed">
-                    Parcourez notre catalogue de leads par verticale, volume et critères de ciblage
+                    Browse our lead catalog by industry, volume, and targeting criteria
                   </p>
                 </div>
 
@@ -282,10 +281,10 @@ export default function Home() {
                     2
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-green-600 transition-colors duration-300">
-                    Sélectionnez votre lot
+                    Select your batch
                   </h3>
                   <p className="text-slate-600 leading-relaxed">
-                    Choisissez votre lot selon votre cible idéale et vos besoins spécifiques
+                    Choose your batch based on your ideal customer profile and specific needs
                   </p>
                 </div>
 
@@ -300,10 +299,10 @@ export default function Home() {
                     3
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-purple-600 transition-colors duration-300">
-                    Recevez vos leads
+                    Receive your leads
                   </h3>
                   <p className="text-slate-600 leading-relaxed">
-                    Obtenez des leads vérifiés et exclusifs, livrés chaque semaine ou chaque mois
+                    Get verified and exclusive leads, delivered weekly or monthly
                   </p>
                 </div>
               </div>
@@ -330,10 +329,10 @@ export default function Home() {
                     </div>
                     <div className="text-left">
                       <p className="text-lg font-semibold text-slate-900">
-                        Simple et transparent
+                        Simple and transparent
                       </p>
                       <p className="text-slate-600">
-                        Vous ne payez que les leads. Aucun setup. Aucun engagement long terme.
+                        You only pay per lead. No setup. No long-term commitment.
                       </p>
                     </div>
                   </div>
@@ -348,10 +347,10 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="text-center max-w-4xl mx-auto mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-                Pourquoi des entreprises B2B leaders nous choisissent
+                Why leading B2B companies work with us
               </h2>
               <p className="text-xl text-slate-600">
-                Notre approche unique combine expertise sectorielle, technologie avancée et résultats mesurables
+                Our unique approach combines industry expertise, advanced technology, and measurable results
               </p>
             </div>
             
@@ -365,10 +364,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors duration-300">
-                  Méthodes sectorielles prêtes à scaler
+                  Industry-based frameworks built for speed
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Des stratégies d'acquisition éprouvées par secteur, optimisées pour chaque verticale et prêtes à être déployées immédiatement.
+                  Proven acquisition strategies by industry, optimized for each vertical and ready to deploy immediately.
                 </p>
               </div>
 
@@ -380,10 +379,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-green-600 transition-colors duration-300">
-                  Données validées en temps réel
+                  Real-time data validation
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Zéro base recyclée. Chaque lead est vérifié, enrichi et validé en temps réel pour garantir la fraîcheur et la qualité des données.
+                  Zero recycled lists. Every lead is verified, enriched and validated in real-time to ensure data freshness and quality.
                 </p>
               </div>
 
@@ -395,10 +394,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-purple-600 transition-colors duration-300">
-                  Gestion par des experts B2B
+                  Fully managed by B2B experts
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Une équipe d'experts en acquisition B2B qui comprend vos enjeux et vous accompagne de A à Z dans votre stratégie de croissance.
+                  A team of B2B acquisition experts who understand your challenges and support you from A to Z in your growth strategy.
                 </p>
               </div>
             </div>
@@ -408,15 +407,15 @@ export default function Home() {
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-100">
                   <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
-                  <div className="text-slate-600 font-medium">Entreprises qui nous font confiance</div>
+                  <div className="text-slate-600 font-medium">Companies that trust us</div>
                 </div>
                 <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-100">
                   <div className="text-3xl font-bold text-green-600 mb-2">6</div>
-                  <div className="text-slate-600 font-medium">Secteurs d'activité couverts</div>
+                  <div className="text-slate-600 font-medium">Industries covered</div>
                 </div>
                 <div className="bg-gradient-to-br from-purple-50 to-violet-50 rounded-2xl p-6 border border-purple-100">
                   <div className="text-3xl font-bold text-purple-600 mb-2">24h</div>
-                  <div className="text-slate-600 font-medium">Temps de réponse moyen</div>
+                  <div className="text-slate-600 font-medium">Average response time</div>
                 </div>
               </div>
             </div>
@@ -428,10 +427,10 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="text-center max-w-4xl mx-auto">
               <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-                Ce qui est inclus
+                What's included
               </h2>
               <p className="text-xl text-slate-600 mb-16">
-                Tout ce que vous obtenez avec nos services de génération de leads
+                Everything you get with our lead generation services
               </p>
             </div>
             
@@ -444,9 +443,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-4">Leads exclusifs vérifiés</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">Verified exclusive leads</h3>
                   <p className="text-slate-700 leading-relaxed">
-                    Email, téléphone, LinkedIn & données firmo vérifiés pour chaque contact
+                    Email, phone, LinkedIn & firmographics verified for each contact
                   </p>
                 </div>
 
@@ -457,9 +456,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-4">Volume minimum flexible</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">Flexible minimum volume</h3>
                   <p className="text-slate-700 leading-relaxed">
-                    Commencez avec 100 leads/mois et augmentez selon vos besoins
+                    Start with 100 leads/month and scale up based on your needs
                   </p>
                 </div>
 
@@ -470,9 +469,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-4">Filtres avancés</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">Advanced filters</h3>
                   <p className="text-slate-700 leading-relaxed">
-                    Verticale, pays, taille d'entreprise, niveau d'intention, etc.
+                    Vertical, country, company size, intent level, and more
                   </p>
                 </div>
 
@@ -483,9 +482,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-4">Prix transparent</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">Transparent pricing</h3>
                   <p className="text-slate-700 leading-relaxed">
-                    De 25€ à 300€ par lead selon la cible et vos critères
+                    From €25 to €300 per lead depending on target and criteria
                   </p>
                 </div>
 
@@ -496,9 +495,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-4">Livraison régulière</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">Regular delivery</h3>
                   <p className="text-slate-700 leading-relaxed">
-                    Fichiers partagés chaque semaine ou chaque mois selon vos préférences
+                    Shared files weekly or monthly according to your preferences
                   </p>
                 </div>
 
@@ -509,9 +508,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M12 2.25a9.75 9.75 0 109.75 9.75A9.75 9.75 0 0012 2.25z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-4">Support premium</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">Premium support</h3>
                   <p className="text-slate-700 leading-relaxed">
-                    Assistance via Slack, WhatsApp ou email selon vos préférences
+                    Assistance via Slack, WhatsApp or email according to your preferences
                   </p>
                 </div>
               </div>
@@ -526,10 +525,10 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-lg font-semibold text-slate-900">
-                      Prêt à démarrer ? 
+                      Ready to start? 
                     </p>
                     <p className="text-slate-600">
-                      Aucun setup. Aucun engagement. Juste des résultats.
+                      No setup. No commitment. Just results.
                     </p>
                   </div>
                 </div>
@@ -553,23 +552,23 @@ export default function Home() {
               {/* Badge */}
               <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-blue-100 text-sm font-medium mb-8 border border-white/20">
                 <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
-                Prêt à démarrer
+                Ready to start
               </div>
               
               <h2 className="text-5xl md:text-6xl font-bold text-white mb-8 leading-tight">
-                Discutons acquisition
+                Let's talk acquisition
               </h2>
               
               <div className="max-w-4xl mx-auto mb-12">
                 <p className="text-xl md:text-2xl text-blue-100 mb-6 leading-relaxed">
-                  Vous nous dites qui vous ciblez.
+                  You tell us who you're targeting.
                 </p>
                 <p className="text-xl md:text-2xl text-blue-100 mb-6 leading-relaxed">
-                  On vous dit combien de leads qualifiés sont déjà disponibles — et à quel prix par lead.
+                  We tell you how many qualified leads we already have — and what it will cost you per lead.
                 </p>
                 <div className="inline-flex items-center px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full text-blue-100 text-lg font-medium border border-white/20">
                   <span className="mr-2">✨</span>
-                  Aucun setup. Aucun abonnement. Juste des résultats.
+                  No setup. No retainer. Just results.
                 </div>
               </div>
               
@@ -580,7 +579,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="group inline-flex items-center px-10 py-5 bg-white text-blue-600 font-bold rounded-full text-xl hover:bg-blue-50 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 transform hover:-translate-y-1"
                 >
-                  Planifiez un appel de 15 min
+                  Book your 15-min discovery call
                   <svg className="ml-3 w-6 h-6 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -590,17 +589,17 @@ export default function Home() {
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  Réponse sous 24h
+                  Response within 24h
                 </div>
               </div>
               
               {/* Trust indicators */}
               <div className="mt-16 pt-8 border-t border-white/20">
-                <p className="text-blue-200 text-sm mb-4">Rejoignez 500+ entreprises qui nous font confiance</p>
+                <p className="text-blue-200 text-sm mb-4">Join 500+ companies that trust us</p>
                 <div className="flex justify-center items-center space-x-8 opacity-60">
-                  <div className="text-blue-200 text-xs">✓ Aucun engagement</div>
-                  <div className="text-blue-200 text-xs">✓ Résultats garantis</div>
-                  <div className="text-blue-200 text-xs">✓ Démarrage en 48h</div>
+                  <div className="text-blue-200 text-xs">✓ No commitment</div>
+                  <div className="text-blue-200 text-xs">✓ Guaranteed results</div>
+                  <div className="text-blue-200 text-xs">✓ Start in 48h</div>
                 </div>
               </div>
             </div>
@@ -612,10 +611,10 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="text-center max-w-4xl mx-auto mb-20">
               <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-                Questions fréquentes
+                Frequently asked questions
               </h2>
               <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-                Tout ce que vous devez savoir sur nos services de génération de leads
+                Everything you need to know about our lead generation services
               </p>
             </div>
             
@@ -629,10 +628,10 @@ export default function Home() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors duration-300">
-                      Qu'est-ce qu'un lead qualifié ?
+                      What's considered a qualified lead?
                     </h3>
                     <p className="text-slate-700 text-lg leading-relaxed">
-                      Un contact pro vérifié (email + téléphone), qui correspond à votre ICP, avec un intérêt déclaré.
+                      A verified business contact (email + phone), matching your ICP, with declared interest.
                     </p>
                   </div>
                 </div>
@@ -647,10 +646,10 @@ export default function Home() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-slate-900 mb-4 group-hover:text-indigo-600 transition-colors duration-300">
-                      Puis-je tester avec un petit volume ?
+                      Can I test with a small batch?
                     </h3>
                     <p className="text-slate-700 text-lg leading-relaxed">
-                      Le minimum est de 100 leads/mois, mais vous pouvez commencer sur une verticale ou un segment spécifique.
+                      Minimum volume is 100 leads/month, but you can start with a single vertical or segment.
                     </p>
                   </div>
                 </div>
@@ -665,10 +664,10 @@ export default function Home() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-slate-900 mb-4 group-hover:text-green-600 transition-colors duration-300">
-                      Y a-t-il un setup ou un engagement ?
+                      Is there any setup or long-term contract?
                     </h3>
                     <p className="text-slate-700 text-lg leading-relaxed">
-                      Non. Vous ne payez que les leads, et vous arrêtez quand vous voulez.
+                      No. You only pay per lead, and you can stop anytime.
                     </p>
                   </div>
                 </div>
@@ -681,7 +680,7 @@ export default function Home() {
         <footer className="bg-slate-900 text-white py-12">
           <div className="container mx-auto px-6 text-center">
             <p className="text-slate-400">
-              © 2024 BPC GROUP. Tous droits réservés.
+              © 2024 BPC GROUP. All rights reserved.
             </p>
           </div>
         </footer>

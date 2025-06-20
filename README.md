@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Page de Vente Pay Per Lead
 
-## Getting Started
+## Design System
 
-First, run the development server:
+### Couleurs
+- **Bleu principal**: `#2563eb` (blue-600) - Confiance, professionnalisme
+- **Bleu foncé**: `#1d4ed8` (indigo-700) - Autorité, stabilité  
+- **Blanc**: `#ffffff` - Pureté, clarté
+- **Gris clair**: `#f9fafb` (gray-50) - Sections alternées
+- **Gris moyen**: `#6b7280` (gray-600) - Texte secondaire
+- **Gris foncé**: `#374151` (gray-700) - Texte principal
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Typographie
+- **Titres H1**: `text-6xl font-bold` - Impact maximum
+- **Titres H2**: `text-4xl font-bold` - Hiérarchie claire
+- **Titres H3**: `text-2xl font-bold` ou `font-semibold text-lg`
+- **Corps de texte**: `text-lg` pour les paragraphes importants
+- **Texte secondaire**: `text-gray-600` pour les descriptions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Layout
+- **Container**: `container mx-auto px-4` - Centrage et responsive
+- **Sections**: `py-16` - Espacement vertical généreux
+- **Grilles**: `grid md:grid-cols-2 lg:grid-cols-3` - Responsive design
+- **Espacement**: `gap-8` pour les grilles, `mb-12` pour les titres
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Composants
+- **Boutons CTA**: `bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100`
+- **Cartes**: `bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg`
+- **Icônes circulaires**: `w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Principes de Design
+1. **Simplicité**: Design épuré, focus sur le contenu
+2. **Impact**: Titres courts et percutants
+3. **Confiance**: Utilisation de chiffres et témoignages
+4. **Clarté**: Hiérarchie visuelle forte
+5. **Action**: CTAs visibles et répétés
 
-## Learn More
+### Responsive
+- **Mobile First**: Design optimisé pour mobile
+- **Breakpoints**: md (768px), lg (1024px)
+- **Grilles adaptatives**: 1 colonne → 2 colonnes → 3 colonnes
 
-To learn more about Next.js, take a look at the following resources:
+### Performance
+- **Images**: Optimisées et lazy loading
+- **CSS**: Tailwind CSS pour un bundle optimisé
+- **SEO**: Meta tags et structure sémantique
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Structure de la Page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Hero Section** - Message principal impactant
+2. **What we do** - Explication du service
+3. **For who** - Cibles idéales
+4. **Results** - Preuves sociales et chiffres
+5. **How it works** - Processus en 4 étapes
+6. **Why us** - Différenciateurs
+7. **Offer** - Détails de l'offre
+8. **Final CTA** - Appel à l'action principal
+9. **FAQ** - Réponses aux objections
 
-## Deploy on Vercel
+## Copy Guidelines
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Ton de voix
+- **Direct** et sans fioritures
+- **Confiant** mais pas arrogant
+- **Professionnel** mais accessible
+- **Action-oriented** avec des verbes forts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Structure des messages
+- **Problème** → **Solution** → **Bénéfice**
+- **Chiffres** pour la crédibilité
+- **Témoignages** pour la preuve sociale
+- **CTAs** clairs et répétés
+
+### Mots-clés à utiliser
+- "Pay per lead"
+- "Qualified leads"
+- "Verified contacts"
+- "No upfront fees"
+- "Scale your acquisition"
+- "Real results" 
